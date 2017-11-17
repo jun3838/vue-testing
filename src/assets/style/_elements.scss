@@ -1,6 +1,10 @@
+$button-background: #222;
+$button-background-hover: #444;
+$button-color: #fff;
+
 .button {
-  background: #222;
-  color: #fff;
+  background: $button-background;
+  color: $button-color;
   padding: rem-calc(10) rem-calc(20);
   border: none;
 }

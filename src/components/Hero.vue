@@ -1,7 +1,7 @@
 <template>
   <div class="hero" :style="{ 'backgroundImage': `url(${background})` }">
     <h1 v-text="text"></h1>
-    <button class="button">Useless CTA link</button>
+    <button class="button">Useless CTA button</button>
   </div>
 </template>
 
@@ -12,14 +12,14 @@
   };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
   .hero {
     background: no-repeat center center/cover;
-    padding: 1.25rem;
+    padding: rem-calc(20);
     color: #f4f4f4;
     display: flex;
     flex-flow: column nowrap;
-    height: 20vh;
+    height: 40vh;
     align-items: center;
     justify-content: center;
   }
