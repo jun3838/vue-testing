@@ -1,0 +1,4 @@
+// REM converter function
+@function rem-calc($px, $base: $body-font-size) { 
+  @return ($px * 1px/$base) * 1rem
+}

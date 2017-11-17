@@ -10,17 +10,8 @@ export default {
 };
 </script>
 
-<style>
-html {
-  font-size: 16px;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
+<style src="./assets/style/main.scss" lang="scss"></style>
+<style scoped>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
