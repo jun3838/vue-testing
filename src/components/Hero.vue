@@ -1,7 +1,6 @@
 <template>
   <div class="hero" :style="{ 'backgroundImage': `url(${background})` }">
     <h1 v-text="text"></h1>
-    <button class="button">Useless CTA button</button>
   </div>
 </template>
 
