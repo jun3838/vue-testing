@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero component Snapshot 1`] = `"<div data-server-rendered=\\"true\\" class=\\"hero\\" style=\\"background-image:url(undefined);\\"><h1></h1></div>"`;
