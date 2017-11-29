@@ -7,7 +7,7 @@
 <script>
   export default {
     name: 'Hero',
-    props: ['text', 'background'],
+    props: ['text', 'background']
   };
 </script>
 
